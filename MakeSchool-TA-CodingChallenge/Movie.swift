@@ -8,11 +8,19 @@
 
 import Foundation
 
-struct Movie: Codable {
+struct Movie {
     
     let title: String
-    let image: URL
+    let imageUrlString: String
     let date: String
-    let price: Float
-    let iTunesLink: URL
+    let price: String
+    let iTunesLinkString: String
+    
+    init(title: String, imageUrlString: String, date: String, price: String, iTunesLinkString: String) {
+        self.title = title
+        self.imageUrlString = imageUrlString
+        self.date = date
+        self.price = price
+        self.iTunesLinkString = iTunesLinkString
+    }
 }

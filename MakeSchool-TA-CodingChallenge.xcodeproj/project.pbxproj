@@ -15,6 +15,7 @@
 		4892F9C620BBBF72001E52DE /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F9C520BBBF72001E52DE /* MovieCell.swift */; };
 		4892F9C820BBC575001E52DE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F9C720BBC575001E52DE /* Movie.swift */; };
 		4892F9CA20BBC720001E52DE /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F9C920BBC720001E52DE /* Networking.swift */; };
+		4892F9CC20BCA74C001E52DE /* DisplayMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F9CB20BCA74C001E52DE /* DisplayMovieViewController.swift */; };
 		FDF88729DEA473E18A43D33A /* Pods_MakeSchool_TA_CodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE04A9CB6EE7C5DF939DB63 /* Pods_MakeSchool_TA_CodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		4892F9C520BBBF72001E52DE /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		4892F9C720BBC575001E52DE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		4892F9C920BBC720001E52DE /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		4892F9CB20BCA74C001E52DE /* DisplayMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMovieViewController.swift; sourceTree = "<group>"; };
 		9110513AB4B832C48D577DA8 /* Pods-MakeSchool-TA-CodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchool-TA-CodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchool-TA-CodingChallenge/Pods-MakeSchool-TA-CodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		DB4CC7A525A2DBFEFE932336 /* Pods-MakeSchool-TA-CodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchool-TA-CodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchool-TA-CodingChallenge/Pods-MakeSchool-TA-CodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				4892F9B320BBBE6F001E52DE /* AppDelegate.swift */,
 				4892F9B520BBBE6F001E52DE /* ViewController.swift */,
 				4892F9C520BBBF72001E52DE /* MovieCell.swift */,
+				4892F9CB20BCA74C001E52DE /* DisplayMovieViewController.swift */,
 				4892F9C720BBC575001E52DE /* Movie.swift */,
 				4892F9C920BBC720001E52DE /* Networking.swift */,
 				4892F9B720BBBE6F001E52DE /* Main.storyboard */,
@@ -215,6 +218,7 @@
 				4892F9CA20BBC720001E52DE /* Networking.swift in Sources */,
 				4892F9B420BBBE6F001E52DE /* AppDelegate.swift in Sources */,
 				4892F9C820BBC575001E52DE /* Movie.swift in Sources */,
+				4892F9CC20BCA74C001E52DE /* DisplayMovieViewController.swift in Sources */,
 				4892F9C620BBBF72001E52DE /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
