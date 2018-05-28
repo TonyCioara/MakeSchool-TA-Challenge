@@ -38,7 +38,7 @@ class DisplayMovieViewController: UIViewController {
     
     @IBAction func viewButtonPressed(_ sender: Any) {
         
-//        Works on a phone, but not o a simmulator
+//        Works on a phone, but not o a simulator
         let url = URL(string: (self.movie?.iTunesLinkString)!)!
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
